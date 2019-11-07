@@ -14,7 +14,6 @@
     <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta property="og:url" content="">
-
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
@@ -23,6 +22,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Maps css-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <!-- Css-->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
     <link rel="stylesheet" href="css/style.css">
 
     <title>projet de groupe</title>
@@ -33,24 +40,18 @@
 
 
 
-
-
     <!-- SLIDER -->
 
 
-
-    <div class="container-fluid p-5">
+<div class="container-fluid p-5">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class=" active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
             </ol>
-
             <div class="container">
                 <div class="row">
-
-
                     <div class="carousel-inner m-auto">
                         <div class="carousel-item active py-5">
                             <div class="d-flex justify-content-between">
@@ -78,6 +79,7 @@
             </div>
         </div>
     </div>
+
 
 
 
@@ -113,19 +115,62 @@
         </div>
     </div>
 
-
-
-
-
-    <!-- SERVICES -->
-
-
-
-
-
+    <!-- SERVICE -->
 
     <!-- CONTACT ACCES -->
+    <section class="container-fluid contact">
+        <div class="row pt-5 pb-5">
+            <div class="col-3">
+                <h2>Contact & Accès</h2>
+                <h3> Love House</h3>
+                <p>
+                    15 rue de la banque <br /> 70000 VESOUL
+                </p>
+                <p>Télèphone : 03 84 22 22 22</p>
+                <h3>Horraires</h3>
 
+                <table>
+                    <tr>
+                        <td class="jour"> lundi</td>
+                        <td class="heure">09:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td class='jour'>mardi</td>
+                        <td class="heure">06:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td class='jour'>mercredi</td>
+                        <td class="heure">06:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td class='jour'>jeudi</td>
+                        <td class="heure">06:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td class='jour'>vendredi</td>
+                        <td class="heure">06:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td class='jour'>samedi</td>
+                        <td class="heure">06:00 - 19:00</td>
+                    </tr>
+                </table>
+
+
+
+
+            </div>
+            <div class="col-9">
+
+                <div class="map" id="mapid">
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
 
 
 
@@ -146,6 +191,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/map.js"></script>
 </body>
 
 </html>
