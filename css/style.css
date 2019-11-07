@@ -1,0 +1,17 @@
+body {
+  background-image: url(media/bg-body.jpg);
+}
+
+header {
+  background-image: url(media/bg-header.jpg);
+}
+
+.bg-presentation {
+  background-image: url(media/bg-presentation.jpg);
+}
+
+.bg-contact {
+  background-image: url(media/bg-contact.jpg);
+}
+
+/*# sourceMappingURL=style.css.map */
