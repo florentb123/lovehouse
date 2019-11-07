@@ -45,5 +45,58 @@
 .pink {
   color: #DF3F7B;
 }
+body {
+  background-image: url(../media/bg-body.jpg);
+}
+
+header {
+  background-image: url(../media/bg-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.bg-service-1 {
+  background-image: url(../media/img-service1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-service-2 {
+  background-image: url(../media/img-service2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-service-3 {
+  background-image: url(../media/img-service3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-service-4 {
+  background-image: url(../media/img-service4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-service-5 {
+  background-image: url(../media/img-service5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-service-6 {
+  background-image: url(../media/img-service6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-contact {
+  background-image: url(../media/bg-contact.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
 /*# sourceMappingURL=style.css.map */
