@@ -14,7 +14,6 @@
     <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta property="og:url" content="">
-
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
@@ -23,20 +22,28 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Maps css-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <!-- Css-->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
     <link rel="stylesheet" href="css/style.css">
-    
+
     <title>projet de groupe</title>
 </head>
 
 <body>
-<!-- HEADER -->
+    <!-- HEADER -->
     <header>
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <p><img src="media/logo.png" alt="love-house-logo-heart-in-house" width="88" height="83"></p>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <!--nav barre-------->
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
@@ -55,53 +62,236 @@
             </nav>
         </div>
         <!-- SLOGAN -->
-        <div class="container-fluid d-flex">
-            <div class="col-6">
-                <blockquote class="text-center text-white h1">
+        <div class="container-fluid d-flex mt-5 py-5">
+            <div class="col-6 mb-5 pb-5">
+                <blockquote class="text-center text-white h1 mb-5">
                     <p>"CHARMEZ VOTRE INTÉRIEUR"</p>
                 </blockquote>
             </div>
-            <div class="col-6">
+            <div class="col-6 mb-5 pb-5 text-center">
                 <p><img src="media/love-house.png" alt="love-house-title" width="582" height="75"></p>
-                <p class="text-center text-white">La maison idéale, c'est celle qui reflète vos humeurs, vos envies ; c'est une maison ouverte à vos rêves où 
-                la décoration est un jeu.</p>
+                <p class="text-white pb-5">La maison idéale, c'est celle qui reflète vos humeurs, vos envies ;
+                    c'est une maison ouverte à vos rêves où
+                    la décoration est un jeu.</p>
             </div>
         </div>
     </header>
 
+    <!-- SLIDER -->
+
+    <div class="container-fluid p-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class=" active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+            </ol>
+            <div class="container">
+                <div class="row">
+                    <div class="carousel-inner m-auto">
+                        <div class="carousel-item active py-5">
+                            <div class="d-flex justify-content-between">
+                                <p><img class='px-2 size' src="./media/img-carrou1.jpg" alt=""></p>
+                                <p><img class='px-2 size' src="./media/img-carrou2.jpg" alt=""></p>
+                                <p><img class='px-2 size' src="./media/img-carrou3.jpg" alt=""></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item py-5">
+                            <div class="d-flex justify-content-between">
+                                <p><img class='px-2 size' src="./media/img-carrou4.jpg" alt=""></p>
+                                <p><img class='px-2 size' src="./media/img-carrou5.jpg" alt=""></p>
+                                <p><img class='px-2 size' src="./media/img-carrou6.jpg" alt=""></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item py-5">
+                            <div class="d-flex justify-content-between">
+                                <p><img class='px-2 size' src="./media/img-carrou7.jpg" alt=""></p>
+                                <p><img class='px-2 size' src="./media/img-carrou8.jpg" alt=""></p>
+                                <p><img class='px-2 size' src="./media/img-carrou9.jpg" alt=""></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-<!-- SLIDER -->
+    <!-- PRESENTATION -->
+
+    <div class="container-fluid py-5 bg-black">
+        <div class="container ">
+            <div class="row pt-5 pb-2">
+                <div class="col-11 m-auto bg-img py-4 ">
+                    <p class="text-center font-weight-bold ">
+                        Le magasin <span class="pink">Love House</span> vous accueille à Vesoul dans le département de
+                        la Haute-Saône.
+                    </p>
+                    <div class="row ">
+                        <div class="col-8 m-auto">
+
+                            <p class="text-center font-weight-bold">
+                                La maison idéale, c'est celle qui reflète vos humeurs, vos envies ;<br>
+                                c'est une maison ouverte à vos rêves où la décoration est un jeu.<br>
+                                Cette maison existe et pour vous aider à la réaliser, Harmonie vous conseille.
+                                Venez découvrir un grand choix des plus grandes marques de voilages
+                                et tissus d'ameublement disponibles sur stock ou collections.<br>
+                                Couleurs, transparences, matières, libre à vous de composer
+                                et de faire de votre maison le lieu de tous vos bonheurs.<br>
+                                Nous disposons d'un espace literie ainsi qu'un espace quincaillerie d'ameublement.<br>
+                                Pour tous conseils personnalisés sur l'agencement
+                                et la décoration intérieure de votre maison,
+                                <span class="pink">Love House</span> à Vesoul.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICE -->
+    <section class="container-fluid service">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-uppercase pb-5">services</h2>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between">
+                <div class="col-6 bg-service-1">
+                    <div class="w-50">
+                        <h3>Rideaux - Voilages</h3>
+                        <p>Un grand choix des plus grandes marques de voilages, macramés, tissus d'ameublement,
+                            disponibles sur stock ou collections.
+                            Finitions oeillets, ruflettes plis, passe tringles, passants, ourlets mains.
+                            Confection à vos mesures en notre atelier par notre couturière et pose possible à votre
+                            domicile.
+                            Stores bateau & parois japonaises.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 bg-service-2">
+                    <div class="w-50">
+                        <h3>Quincaillerie - Décor - Passementerie</h3>
+                        <p>Grand choix des grandes marques de galon, passementerie et embrasses.
+                            Gonds embrasses, aimants.
+                            Tringles bois ou laiton.
+                            Mécanismes stores bateau, vénitiens, bandes verticales, enrouleurs et parois japonaises.
+                            Pose à domicile possible.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 bg-service-3">
+                    <div class="w-50">
+                        <h3>Linge de table</h3>
+                        <p>Une vaste sélection de nappes rondes, carrées et rectangulaires, chemins de table, sets et
+                            serviettes.
+                            Nappes anti-tâches.
+                            Manique de cuisine, tabliers.
+                            Confection en notre atelier à vos mesures.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 bg-service-4">
+                    <div class="w-50">
+                        <h3>Linge de bain</h3>
+                        <p>Grande sélection de serviettes, gants, draps de bain, draps de douche, peignoirs, paréos,
+                            tapis de bain.
+                            Linge éponge pour enfants.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 bg-service-5">
+                    <div class="w-50">
+                        <h3>Linge de lit</h3>
+                        <p>Plaids, coussins, jetées de lit, taies carrées ou rectangulaires, parures, housses de
+                            couettes, protèges matelas, couettes duvet ou synthétiques, couvertures pure laine,
+                            édredons, traversions, oreillers pilo-végétal à mémoire de forme, coussins de sol, galettes
+                            de chaises.
+                            Peignoirs laine des Pyrénées.
+                            Têtes de lit, matelas et accessoires.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-6 bg-service-6">
+                    <div class="w-50">
+                        <h3>Prestations</h3>
+                        <p>Entretien de vos voilages et doubles rideaux.
+                            Nous nous occupons de tout : dépendre vos voilages, dépoussiérage, lavage, séchage, contrôle
+                            des têtes (ruflettes et crochets), repassage et les rependre.
+                            Devis établis en fonction du nombre de voilages.
+                            Conseil et prise de mesures à domicile.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT ACCES -->
+    <section class="container-fluid contact">
+        <div class="row pt-5 pb-5">
+            <div class="col-3">
+                <h2>Contact & Accès</h2>
+                <h3> Love House</h3>
+                <p>
+                    15 rue de la banque <br /> 70000 VESOUL
+                </p>
+                <p>Télèphone : 03 84 22 22 22</p>
+                <h3>Horraires</h3>
+
+                <table>
+                    <tr>
+                        <td class="jour"> lundi</td>
+                        <td class="heure">09:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td class='jour'>mardi</td>
+                        <td class="heure">06:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td class='jour'>mercredi</td>
+                        <td class="heure">06:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td class='jour'>jeudi</td>
+                        <td class="heure">06:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td class='jour'>vendredi</td>
+                        <td class="heure">06:00 - 19:00</td>
+                    </tr>
+                    <tr>
+                        <td class='jour'>samedi</td>
+                        <td class="heure">06:00 - 19:00</td>
+                    </tr>
+                </table>
+
+
+
+
+            </div>
+            <div class="col-9">
+            <div class="map" id="mapid">
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
 
 
 
 
 
 
-<!-- PRESENTATION -->
-
-
-
-
-
-
-
-<!-- SERVICES -->
-
-
-
-
-
-
-<!-- CONTACT ACCES -->
-
-
-
-
-
-
-
-<!-- FOOTER -->
+    <!-- FOOTER -->
 
 
 
@@ -115,6 +305,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/map.js"></script>
 </body>
 
 </html>

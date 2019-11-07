@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../_bg.scss"],"names":[],"mappings":"AAaA;EACI,kBAZM;;;AAeV;EACI,kBAfQ;EAgBR;EACA;EACA;;;AAGJ;EACI,kBArBW;EAsBX;EACA;;;AAGJ;EACI,kBA1BW;EA2BX;EACA;;;AAGJ;EACI,kBA/BW;EAgCX;EACA;;;AAGJ;EACI,kBApCW;EAqCX;EACA;;;AAGJ;EACI,kBAzCW;EA0CX;EACA;;;AAGJ;EACI,kBA9CW;EA+CX;EACA;;;AAGJ;EACI,kBAnDS;EAoDT;EACA","file":"style.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../scss/_contact.scss","../scss/_font.scss","../scss/_slider.scss","../scss/_colors.scss","../scss/_presentation.scss","../scss/_bg.scss","../scss/_service.scss"],"names":[],"mappings":"AAAA;EAAS;;;AAGT;EACI;EACD;EAEC;EACA;;AAKA;EACA;EACA;;;ACfJ;EACI;EACA;;ACAI;EACI;;AAKJ;EACI;EACA;EACA;EACA;;AAGA;EACI;EACA,kBCdP;;;ACFT;EACI,kBDCK;;;ACET;EACI;EACA;EACA;EACA;;;AAEJ;EACI,ODVI;;;AEWR;EACI,kBAZM;;;AAeV;EACI,kBAfQ;EAgBR;EACA;EACA;EACA;;;AAGJ;EACI,kBAtBW;EAuBX;EACA;;;AAGJ;EACI,kBA3BW;EA4BX;EACA;;;AAGJ;EACI,kBAhCW;EAiCX;EACA;;;AAGJ;EACI,kBArCW;EAsCX;EACA;;;AAGJ;EACI,kBA1CW;EA2CX;EACA;;;AAGJ;EACI,kBA/CW;EAgDX;EACA;;;AAGJ;EACI,kBApDS;EAqDT;EACA;;;AChEJ;EACE;EACA;EACA;;;AAOI;EACE;EACA","file":"style.css"}
+>>>>>>> a421c2a46d3aa01eca34abc31af83935d4ccd22f

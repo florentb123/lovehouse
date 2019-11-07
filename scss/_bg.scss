@@ -1,0 +1,65 @@
+// system bg
+
+$bg-body: url(../media/bg-body.jpg);
+$bg-header: url(../media/bg-header.jpg);
+$bg-service-1: url(../media/img-service1.jpg);
+$bg-service-2: url(../media/img-service2.jpg);
+$bg-service-3: url(../media/img-service3.jpg);
+$bg-service-4: url(../media/img-service4.jpg);
+$bg-service-5: url(../media/img-service5.jpg);
+$bg-service-6: url(../media/img-service6.jpg);
+$bg-contact: url(../media/bg-contact.jpg);
+
+
+body{
+    background-image: $bg-body;
+}
+
+header{
+    background-image: $bg-header;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-service-1{
+    background-image: $bg-service-1;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-service-2{
+    background-image: $bg-service-2;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-service-3{
+    background-image: $bg-service-3;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-service-4{
+    background-image: $bg-service-4;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-service-5{
+    background-image: $bg-service-5;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-service-6{
+    background-image: $bg-service-6;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-contact{
+    background-image: $bg-contact;
+    background-size: cover;
+    background-position: center;
+}
