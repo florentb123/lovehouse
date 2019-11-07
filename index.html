@@ -22,6 +22,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Maps css-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+   <!-- Css-->
+   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
     <link rel="stylesheet" href="css/style.css">
     
     <title>projet de groupe</title>
@@ -55,7 +63,26 @@
 
 
 <!-- CONTACT ACCES -->
+<section class="container-fluid contact">
+    <div class="row">
+        <div class="col-3">
+            <h2>Contact & Accès</h2>
+            <h3> Love House</h3>
+            <p>
+                15 rue de la banque
+            </p>
+        </div>
+        <div class="col-9">
+            
+            <div class="map" id="mapid">
 
+            </div>
+            
+        </div>
+    </div>
+
+
+</section>
 
 
 
@@ -76,6 +103,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/map.js"></script>
 </body>
 
 </html>
