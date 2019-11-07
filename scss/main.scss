@@ -1,50 +1,6 @@
-
-
+@import'colors';
+@import'contact';
+@import'font';
+@import'slider';
+@import'presentation';
 // SLIDER
-
-
-
-
-.container-fluid{
-    .carousel-inner{
-        .size{
-            height: 380px;
-        }
-    }
-    .carousel-indicators{
-
-        li{
-            width: 6px;
-            height: 6px;
-            border-radius: 100%;
-            border: 1px solid black;
-            
-
-            &.active{
-                border: 1px solid black;
-                background-color: black;
-                
-            }
-        }
-        
-        
-    }
-}
-
-
-
-//    PRESENTATION
-
-
-.bg-black{
-    background-color: black;
-    
-}
-.bg-img{
-    background-color: white;
-    -webkit-box-shadow: -36px -36px 0px 0px rgba(223,25,88,1);
-    -moz-box-shadow: -36px -36px 0px 0px rgba(223,25,88,1);
-    box-shadow: -36px -36px 0px 0px rgba(223,25,88,1);
-}
-@import 'colors';
-@import 'contact';

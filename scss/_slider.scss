@@ -1,0 +1,25 @@
+.container-fluid{
+    .carousel-inner{
+        .size{
+            height: 380px;
+        }
+    }
+    .carousel-indicators{
+
+        li{
+            width: 6px;
+            height: 6px;
+            border-radius: 100%;
+            border: 1px solid $black;
+            
+
+            &.active{
+                border: 1px solid $black;
+                background-color: $black;
+                
+            }
+        }
+        
+        
+    }
+}
