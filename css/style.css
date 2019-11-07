@@ -45,6 +45,7 @@
 .pink {
   color: #DF3F7B;
 }
+
 body {
   background-image: url(../media/bg-body.jpg);
 }
@@ -97,6 +98,17 @@ header {
   background-image: url(../media/bg-contact.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+}
+
+.service .w-50 {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
