@@ -17,8 +17,8 @@
   font-family: "Montserra Medium";
   src: url(../police/Montserrat-Medium.ttf);
 }
-.container-fluid .carousel-inner .size {
-  height: 380px;
+.container-fluid .carousel-inner .img-fluid {
+  max-height: 368px;
 }
 .container-fluid .carousel-indicators li {
   width: 6px;
