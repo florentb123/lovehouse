@@ -10,6 +10,30 @@ header {
   background-image: url(media/bg-presentation.jpg);
 }
 
+.bg-service-1 {
+  background-image: url(media/img-service1.jpg);
+}
+
+.bg-service-2 {
+  background-image: url(media/img-service2.jpg);
+}
+
+.bg-service-3 {
+  background-image: url(media/img-service3.jpg);
+}
+
+.bg-service-4 {
+  background-image: url(media/img-service4.jpg);
+}
+
+.bg-service-5 {
+  background-image: url(media/img-service5.jpg);
+}
+
+.bg-service-6 {
+  background-image: url(media/img-service6.jpg);
+}
+
 .bg-contact {
   background-image: url(media/bg-contact.jpg);
 }
