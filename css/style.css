@@ -1,0 +1,11 @@
+.img-fluid{
+    background: url(../media/bed-1158272_1920.jpg);
+}
+
+.bg-dark{
+    opacity: 0.8;
+    width: 50%;
+}
+
+.bg-primary{opacity: 0.8; width: 50%;}
+
