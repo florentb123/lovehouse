@@ -1,5 +1,16 @@
 #mapid {
-  height: 350px;
+  height: 500px;
+}
+
+.contact {
+  min-height: 550px;
+  color: white;
+  border-left: 5px solid #DF3F7B;
+  background-color: #3a3a3a;
+}
+.contact .jour {
+  width: 170px;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */
