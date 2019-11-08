@@ -1,0 +1,25 @@
+.container-fluid{
+    .carousel-inner{
+        .img-fluid{
+            max-height: 368px;
+        }
+    }
+    .carousel-indicators{
+
+        li{
+            width: 6px;
+            height: 6px;
+            border-radius: 100%;
+            border: 1px solid $black;
+            
+
+            &.active{
+                border: 1px solid $black;
+                background-color: $black;
+                
+            }
+        }
+        
+        
+    }
+}
