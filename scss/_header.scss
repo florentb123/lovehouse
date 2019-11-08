@@ -1,3 +1,7 @@
+$screen-lg-min: 992px;
+$screen-md-min: 768px;
+$screen-sm-min: 576px;
+
 body{
     header{
         font-family: 'Montserrat Medium';
@@ -6,7 +10,7 @@ body{
             li{
                 .nav-link{
                     &:hover{
-                        color: $blue!important;
+                        color: $pink!important;
                     }
                 }             
             }
@@ -14,7 +18,41 @@ body{
         .blockquote-size{
             font-size: 80px;
             font-family: 'Montserrat Regular';
-            line-height: 1rem;
+            line-height: 5rem; 
+        }
+        .p-line-height{
+            line-height: 2rem;
         }
     }
 }
+
+@mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+ }
+ @include lg{
+    .blockquote-size{
+        font-size:70px;
+    }
+    .h5{
+        font-size:18px;
+    }
+ }
+
+ @mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+ }
+ @include md{
+    .blockquote-size{
+        font-size:60px;
+    }
+    .h5{
+        font-size:16px;
+    }
+ }
+ 
+
+ 
