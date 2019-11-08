@@ -1,0 +1,20 @@
+body{
+    header{
+        font-family: 'Montserrat Medium';
+        
+        nav{
+            li{
+                .nav-link{
+                    &:hover{
+                        color: $blue!important;
+                    }
+                }             
+            }
+        }
+        .blockquote-size{
+            font-size: 80px;
+            font-family: 'Montserrat Regular';
+            line-height: 1rem;
+        }
+    }
+}
