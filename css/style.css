@@ -146,4 +146,16 @@ header {
   height: 100%;
 }
 
+footer p {
+  margin: 0;
+}
+footer .logo {
+  width: 25px;
+  height: auto;
+}
+footer .logo-txt {
+  width: 55px;
+  height: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
