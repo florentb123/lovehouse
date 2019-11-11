@@ -231,10 +231,9 @@ header {
   height: 100%;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
   .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
-    max-width: 80%;
-    justify-content: center;
+    max-width: 100%;
   }
 }
 @media (max-width: 575.98px) {
