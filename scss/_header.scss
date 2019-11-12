@@ -27,10 +27,11 @@ body{
             font-size: 80px;
             font-family: 'Montserrat Regular';
             color: $pink-dark;
-            
-            span{
-                color:black;
-            }
+        }    
+        span{
+            color:black;
+            font-size: 80px;
+            font-family: 'Montserrat Regular';
         }
         .p-line-height{
             line-height: 2rem;
