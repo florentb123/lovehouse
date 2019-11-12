@@ -35,13 +35,13 @@ body{
         .p-line-height{
             line-height: 2rem;
         }
+        .arrow{
+            height: 200px;
+        }
     }
 }
 
 .demo a {
-    position: absolute;
-    bottom: 1%;
-    left: 48%;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
