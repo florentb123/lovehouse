@@ -91,6 +91,9 @@ body header .color-love span {
 body header .p-line-height {
   line-height: 2rem;
 }
+body header .arrow {
+  height: 200px;
+}
 
 .demo a {
   position: absolute;
@@ -294,6 +297,17 @@ footer .logo-txt {
   }
 }
 @media (max-width: 575.98px) {
+  .blockquote-size {
+    font-size: 50px !important;
+  }
+
+  .color-love {
+    font-size: 50px !important;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
   .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
     max-width: 100%;
   }
