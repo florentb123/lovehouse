@@ -85,14 +85,14 @@ body header .color-love {
   font-family: "Montserrat Regular";
   color: #df1958;
 }
-body header .color-love span {
+body header span {
   color: black;
 }
 body header .p-line-height {
   line-height: 2rem;
 }
 body header .arrow {
-  height: 200px;
+  height: 210px;
 }
 
 #scroll-button p {
@@ -113,7 +113,7 @@ body header .arrow {
 
 #scroll-button p span {
   position: absolute;
-  top: 0;
+  top: 90%;
   left: 50%;
   width: 24px;
   height: 24px;
@@ -269,7 +269,7 @@ footer .logo-txt {
   }
 
   .arrow {
-    height: 100px !important;
+    height: 80px !important;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
