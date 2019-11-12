@@ -30,14 +30,12 @@ body{
         }    
         span{
             color:black;
-            font-size: 80px;
-            font-family: 'Montserrat Regular';
         }
         .p-line-height{
             line-height: 2rem;
         }
         .arrow{
-            height: 200px;
+            height: 210px;
         }
     }
 }
@@ -59,7 +57,7 @@ body{
 }
 #scroll-button p span {
     position: absolute;
-    top: 0;
+    top: 90%;
     left: 50%;
     width: 24px;
     height: 24px;

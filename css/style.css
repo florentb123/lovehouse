@@ -87,14 +87,12 @@ body header .color-love {
 }
 body header span {
   color: black;
-  font-size: 80px;
-  font-family: "Montserrat Regular";
 }
 body header .p-line-height {
   line-height: 2rem;
 }
 body header .arrow {
-  height: 200px;
+  height: 210px;
 }
 
 #scroll-button p {
@@ -115,7 +113,7 @@ body header .arrow {
 
 #scroll-button p span {
   position: absolute;
-  top: 0;
+  top: 90%;
   left: 50%;
   width: 24px;
   height: 24px;
@@ -237,7 +235,7 @@ footer .logo-txt {
     font-size: 60px !important;
   }
 
-  .color-love span {
+  .color-love {
     font-size: 60px !important;
   }
 
@@ -254,7 +252,7 @@ footer .logo-txt {
     font-size: 70px !important;
   }
 
-  .color-love span {
+  .color-love {
     font-size: 70px !important;
   }
 
@@ -271,7 +269,7 @@ footer .logo-txt {
   }
 
   .arrow {
-    height: 100px !important;
+    height: 80px !important;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -279,7 +277,7 @@ footer .logo-txt {
     font-size: 70px !important;
   }
 
-  .color-love span {
+  .color-love {
     font-size: 70px !important;
   }
 
@@ -308,7 +306,7 @@ footer .logo-txt {
     font-size: 50px !important;
   }
 
-  .color-love span {
+  .color-love {
     font-size: 50px !important;
     text-align: center;
     padding-left: 0;
