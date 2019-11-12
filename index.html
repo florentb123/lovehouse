@@ -36,9 +36,7 @@
         integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
         crossorigin="" />
     <!-- Css-->
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-        crossorigin=""></script>
+   
     <link rel="stylesheet" href="css/style.css">
 
     <title>Love House, charmez votre intérieur</title>
@@ -254,7 +252,7 @@
     <section class="container-fluid contact">
         <div class="row pt-3 pb-5" id="ancre_acces">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12" >
-                    <h2 class='text-center text-lg-left pb-2 pl-lg-5'>Contact & Accès</h2>
+                    <h2 class='text-center text-lg-left pb-2 pl-lg-5 text-uppercase'>Contact & Accès</h2>
               </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-3 pl-5 d-sm-flex justify-content-sm-around pb-sm-4 d-lg-block">
 
@@ -269,7 +267,7 @@
 
                 </div>
                 <div class="horraire pb-3 pb-sm-0">
-                    <h3>Horraires</h3>
+                    <h3>Horaires</h3>
                     <table>
                         <tr>
                             <td class="jour"> lundi</td>
@@ -301,7 +299,7 @@
 
 
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9 pl-0 pr-0 pl-lg-1 pr-lg-3">
 
                 <div class="map" id="mapid">
 
@@ -319,20 +317,25 @@
 
 
     <!-- FOOTER -->
-    <div class="container-fluid pt-1">
+    <footer class="container-fluid pt-1">
         <div class="container">
             <div class="row text-center d-block">
-                <p><img src="./media/logo-footer.png" alt=""></p>
-                <p><img src="./media/love-house-footer.png" alt=""></p>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-2 d-flex d-md-block justify-content-center">
+                    <p><img class='logo' src="./media/logo-footer.png" alt="logo maison rose avec coeur rose" width="75" height="71"></p>
+                     <p><img class='pl-2 pl-md-0 logo-txt' src="./media/love-house-footer.png" alt="love house" width="272" height="35"></p>
+                </div>
             </div>
         </div>
-    </div>
+    </footer>
 
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+    crossorigin=""></script>
     <script src="js/map.js"></script>
 </body>
 
