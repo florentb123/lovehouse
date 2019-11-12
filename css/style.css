@@ -190,6 +190,27 @@ header .container-fluid nav button:focus {
   color: #DF3F7B;
 }
 
+.bg-black #ancre_pre .btn {
+  border: none;
+}
+.bg-black #ancre_pre .btn:hover {
+  border: none;
+}
+.bg-black #ancre_pre .btn:active {
+  border: none;
+  background-color: none;
+  box-shadow: none;
+}
+.bg-black #ancre_pre .btn:focus {
+  border: none;
+  background-color: none;
+  box-shadow: none;
+}
+.bg-black #ancre_pre .btn-primary:active {
+  background-color: #DF3F7B;
+  color: black;
+}
+
 .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
   background-size: cover;
   background-position: center;

@@ -12,3 +12,30 @@
 .pink{
     color: $pink;
 }
+.bg-black{
+    #ancre_pre{
+        .btn{
+            border: none;
+            &:hover{
+                border: none;
+            }
+            &:active{
+                border: none;
+                background-color: none;
+                box-shadow: none;
+            }
+            &:focus{
+                border: none;
+                background-color: none;
+                box-shadow: none;
+            }
+        }
+        .btn-primary{
+            &:active{
+                background-color: $pink;
+                color: black;
+            }
+        }
+        
+    }
+}
