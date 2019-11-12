@@ -1,5 +1,6 @@
 header{
     .container-fluid{
+        height: 180px;
         nav{
             
             button{
@@ -9,4 +10,8 @@ header{
             }
         }
     }
+}
+.navbar{
+    position: absolute;
+    width: 96%;
 }

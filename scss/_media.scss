@@ -1,0 +1,73 @@
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .blockquote-size {
+        font-size: 60px !important;
+      }
+    
+      .color-love {
+        font-size: 60px !important;
+      }
+    
+      .h5 {
+        font-size: 18px;
+      }
+      .contact .jour {
+        width: 110px;
+      }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .blockquote-size {
+        font-size: 70px !important;
+      }
+    
+      .color-love {
+        font-size: 70px !important;
+      }
+    
+      .h5 {
+        font-size: 18px;
+      }
+    .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
+        max-width: 80%;
+      }
+    #mapid {
+        height: 200px;
+      }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .blockquote-size {
+        font-size: 70px !important;
+      }
+    
+      .color-love {
+        font-size: 70px !important;
+      }
+    
+      .h5 {
+        font-size: 16px;
+      }
+    .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
+        max-width: 100%;
+      }
+    #mapid {
+        height: 150px;
+      }
+    
+      .contact h2 {
+        text-align: center;
+      }
+}
+
+@media (max-width: 575.98px){
+    .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
+        max-width: 100%;
+      }
+    .service .w-50 {
+        width: 75% !important;
+        background-color: rgba(255, 255, 255, 0.8);
+        height: 100%;
+      }
+}
