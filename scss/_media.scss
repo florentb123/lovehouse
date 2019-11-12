@@ -34,6 +34,9 @@
     #mapid {
         height: 200px;
       }
+      .arrow{
+        height: 100px!important;
+    }
 }
 
 
@@ -45,13 +48,23 @@
       .color-love {
         font-size: 70px !important;
       }
-    
+      .arrow{
+        display: none;
+    }
       .h5 {
         font-size: 16px;
       }
     .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
         max-width: 100%;
       }
+
+      .service .w-50 {
+        width: 100% !important;
+        background-color: rgba(255, 255, 255, 0.6);
+        height: 100%;
+        font-weight: bold;
+      }
+      
     #mapid {
         height: 150px;
       }
@@ -62,27 +75,42 @@
 }
 
 @media (max-width: 575.98px){
-    .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
-        max-width: 100%;
-      }
-    .service .w-50 {
-        width: 100% !important;
-        background-color: rgba(255, 255, 255, 0.5);
-        height: 100%;
-        font-weight: bold;
-      }
-      .contact {
-        h2, .adress, .horraire {
-          text-align: center; 
-          margin:auto;
-         }
+  .blockquote-size{
+    font-size: 50px!important;
+}
+.color-love{
+    font-size: 50px!important;
+    text-align: center;
+    padding-left:0;
+    margin-left: 0;
+} 
+.arrow{
+  display: none;
+}
+  .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
+    max-width: 100%;
+  }
+
+  .service .w-50 {
+    width: 100% !important;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    font-weight: bold;
+  }
+
+  .contact {
+    h2, .adress, .horraire {
+    text-align: center; 
+    margin:auto;
+  }
          
-         table{
-             margin: auto;
-         }
-         td{
-             text-align:left;
-         }
-         #mapid { height: 150px;
-        }
-}}
+    table{
+     margin: auto;
+    }
+    td{
+     text-align:left;
+    }
+    #mapid { height: 150px;
+    }
+  }
+}

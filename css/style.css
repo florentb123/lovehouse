@@ -58,7 +58,7 @@ header {
   src: url(../police/Montserrat-Regular.ttf);
 }
 header .container-fluid {
-  height: 180px;
+  height: 80px;
 }
 header .container-fluid nav button:focus {
   outline: 1px;
@@ -91,11 +91,11 @@ body header .color-love span {
 body header .p-line-height {
   line-height: 2rem;
 }
+body header .arrow {
+  height: 200px;
+}
 
-.demo a {
-  position: absolute;
-  top: 700px;
-  left: 48%;
+#scroll-button p {
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -107,15 +107,11 @@ body header .p-line-height {
   transition: opacity 0.3s;
 }
 
-.demo a:hover {
-  opacity: 0.5;
-}
-
-#section05 a {
+#scroll-button p {
   padding-top: 70px;
 }
 
-#section05 a span {
+#scroll-button p span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -156,6 +152,10 @@ body header .p-line-height {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
+}
+header .container-fluid nav img {
+  width: 57px;
+  height: 52px;
 }
 header .container-fluid nav button:focus {
   outline: 1px;
@@ -267,6 +267,10 @@ footer .logo-txt {
   #mapid {
     height: 200px;
   }
+
+  .arrow {
+    height: 100px !important;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .blockquote-size {
@@ -277,12 +281,23 @@ footer .logo-txt {
     font-size: 70px !important;
   }
 
+  .arrow {
+    display: none;
+  }
+
   .h5 {
     font-size: 16px;
   }
 
   .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
     max-width: 100%;
+  }
+
+  .service .w-50 {
+    width: 100% !important;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    font-weight: bold;
   }
 
   #mapid {
@@ -294,13 +309,28 @@ footer .logo-txt {
   }
 }
 @media (max-width: 575.98px) {
+  .blockquote-size {
+    font-size: 50px !important;
+  }
+
+  .color-love {
+    font-size: 50px !important;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .arrow {
+    display: none;
+  }
+
   .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
     max-width: 100%;
   }
 
   .service .w-50 {
     width: 100% !important;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     height: 100%;
     font-weight: bold;
   }
