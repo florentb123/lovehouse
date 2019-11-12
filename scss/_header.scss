@@ -41,11 +41,7 @@ body{
     }
 }
 
-.demo a {
-    position: absolute;
-    // bottom: 1%;
-    top:700px;
-    left: 48%;
+#scroll-button p {
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
@@ -56,13 +52,11 @@ body{
     text-decoration: none;
     transition: opacity .3s;
 }
-.demo a:hover {
-    opacity: .5;
-}
-#section05 a {
+
+#scroll-button p {
     padding-top: 70px;
 }
-#section05 a span {
+#scroll-button p span {
     position: absolute;
     top: 0;
     left: 50%;
