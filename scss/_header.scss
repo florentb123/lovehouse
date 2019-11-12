@@ -19,12 +19,12 @@ body{
         }
         .blockquote-size{
             font-size: 80px;
-            // font-family: 'Montserrat Regular';
+            font-family: 'Montserrat Regular';
             line-height: 5rem; 
         }
         .color-love{
             font-size: 80px;
-            // font-family: 'Montserrat Regular';
+            font-family: 'Montserrat Regular';
             color: $pink-dark;
             
             span{
@@ -39,7 +39,8 @@ body{
 
 .demo a {
     position: absolute;
-    bottom: 1%;
+    // bottom: 1%;
+    top:700px;
     left: 48%;
     z-index: 2;
     display: inline-block;
@@ -100,56 +101,6 @@ body{
 }
   
 
-@mixin lg {
-    @media (min-width: #{$screen-lg-min}) and (max-width: #{$screen-lg-max}){
-        @content;
-    }
-}
-@include lg{
-        .blockquote-size{
-            font-size: 60px!important;
-        }
-        .color-love{
-            font-size: 60px!important;
-        }
-        .h5{
-            font-size:18px;
-        }
-}
-
-@mixin md {
-    @media (min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max}) {
-        @content;
-    }
-}
-@include md{
-    .blockquote-size{
-        font-size: 70px!important;
-    }
-    .color-love{
-        font-size: 70px!important;
-    }
-    .h5{
-        font-size: 18px;
-    }
-}
-
-@mixin sm {
-    @media (min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max}) {
-        @content;
-    }
-}
-@include sm{
-    .blockquote-size{
-        font-size: 70px!important;
-    }
-    .color-love{
-        font-size: 70px!important;
-    }
-    .h5{
-        font-size: 16px;
-    }
-}
  
 header{
     .container-fluid{
