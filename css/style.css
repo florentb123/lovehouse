@@ -293,6 +293,13 @@ footer .logo-txt {
     max-width: 100%;
   }
 
+  .service .w-50 {
+    width: 100% !important;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    font-weight: bold;
+  }
+
   #mapid {
     height: 150px;
   }
@@ -322,9 +329,10 @@ footer .logo-txt {
   }
 
   .service .w-50 {
-    width: 75% !important;
-    background-color: rgba(255, 255, 255, 0.8);
+    width: 100% !important;
+    background-color: rgba(255, 255, 255, 0.6);
     height: 100%;
+    font-weight: bold;
   }
 
   .contact h2, .contact .adress, .contact .horraire {
