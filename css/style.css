@@ -307,6 +307,13 @@ footer .logo-txt {
   .contact h2 {
     text-align: center;
   }
+
+  .sm-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (max-width: 575.98px) {
   .blockquote-size {
@@ -347,6 +354,13 @@ footer .logo-txt {
   }
   .contact #mapid {
     height: 150px;
+  }
+
+  .sm-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
