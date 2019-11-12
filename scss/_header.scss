@@ -101,6 +101,10 @@ body{
 header{
     .container-fluid{
         nav{
+            img{
+                width: 57px;
+                height: 52px;
+            }
             button{
                 &:focus{
                     outline: 1px;
