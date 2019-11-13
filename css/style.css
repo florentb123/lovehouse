@@ -58,7 +58,7 @@ header {
   src: url(../police/Montserrat-Regular.ttf);
 }
 header .container-fluid {
-  height: 40px;
+  height: 80px;
 }
 header .container-fluid nav button:focus {
   outline: 1px;
@@ -312,19 +312,25 @@ footer .logo-txt {
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .blockquote-size {
+  header {
+    height: 620px;
+  }
+  header .container-fluid {
+    height: 40px;
+  }
+  header .pt-responsive-xs {
+    padding-top: 1rem !important;
+  }
+  header .blockquote-size {
     font-size: 70px !important;
   }
-
-  .color-love {
+  header .color-love {
     font-size: 70px !important;
   }
-
-  .arrow {
+  header .arrow {
     display: none;
   }
-
-  .h5 {
+  header .h5 {
     font-size: 16px;
   }
 
@@ -346,18 +352,22 @@ footer .logo-txt {
   }
 }
 @media (max-width: 575.98px) {
-  .blockquote-size {
-    font-size: 50px !important;
+  header {
+    height: 580px;
   }
-
-  .color-love {
-    font-size: 50px !important;
-    text-align: center;
-    padding-left: 0;
-    margin-left: 0;
+  header .container-fluid {
+    height: 40px;
   }
-
-  .arrow {
+  header .pt-responsive-xs {
+    padding-top: 1rem !important;
+  }
+  header .blockquote-size {
+    font-size: 40px !important;
+  }
+  header .color-love {
+    font-size: 40px !important;
+  }
+  header .arrow {
     display: none;
   }
 

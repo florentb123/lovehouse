@@ -68,20 +68,28 @@
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .blockquote-size {
-    font-size: 70px !important;
-  }
 
-  .color-love {
-    font-size: 70px !important;
-  }
-
-  .arrow {
-    display: none;
-  }
-
-  .h5 {
-    font-size: 16px;
+ 
+  header{
+    .container-fluid{
+      height: 40px;
+    }
+    height: 620px;
+      .pt-responsive-xs{
+        padding-top: 1rem !important;
+      }
+      .blockquote-size {
+        font-size: 70px !important;
+      }
+      .color-love{
+        font-size: 70px !important;
+      }
+      .arrow{
+        display: none;
+      }
+      .h5 {
+        font-size: 16px;
+      }
   }
 
   .bg-service-1,
@@ -103,19 +111,23 @@
 }
 
 @media (max-width: 575.98px) {
-  .blockquote-size {
-    font-size: 50px !important;
-  }
-
-  .color-love {
-    font-size: 50px !important;
-    text-align: center;
-    padding-left: 0;
-    margin-left: 0;
-  }
-
-  .arrow {
-    display: none;
+  header{
+    .container-fluid{
+      height: 40px;
+    }
+    height: 580px;
+      .pt-responsive-xs{
+        padding-top: 1rem !important;
+      }
+      .blockquote-size{
+        font-size: 40px!important;
+      }
+      .color-love {
+        font-size: 40px!important;
+      } 
+      .arrow{
+      display: none;
+      }
   }
 
   .bg-service-1,
