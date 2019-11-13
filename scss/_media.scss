@@ -41,19 +41,24 @@
 
 
 @media (min-width: 576px) and (max-width: 767.98px){
-    .blockquote-size {
+  header{
+    height: 620px;
+      .pt-responsive-xs{
+        padding-top: 1rem !important;
+      }
+      .blockquote-size {
         font-size: 70px !important;
       }
-    
       .color-love{
         font-size: 70px !important;
       }
       .arrow{
         display: none;
-    }
+      }
       .h5 {
         font-size: 16px;
       }
+  }
     .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
         max-width: 100%;
       }
@@ -67,15 +72,21 @@
 }
 
 @media (max-width: 575.98px){
-  .blockquote-size{
-    font-size: 40px!important;
-}
-.color-love {
-    font-size: 40px!important;
-} 
-.arrow{
-  display: none;
-}
+  header{
+    height: 580px;
+      .pt-responsive-xs{
+        padding-top: 1rem !important;
+      }
+      .blockquote-size{
+        font-size: 40px!important;
+      }
+      .color-love {
+        font-size: 40px!important;
+      } 
+      .arrow{
+      display: none;
+      }
+  }
   .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
     max-width: 100%;
   }

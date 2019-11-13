@@ -273,19 +273,22 @@ footer .logo-txt {
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .blockquote-size {
+  header {
+    height: 620px;
+  }
+  header .pt-responsive-xs {
+    padding-top: 1rem !important;
+  }
+  header .blockquote-size {
     font-size: 70px !important;
   }
-
-  .color-love {
+  header .color-love {
     font-size: 70px !important;
   }
-
-  .arrow {
+  header .arrow {
     display: none;
   }
-
-  .h5 {
+  header .h5 {
     font-size: 16px;
   }
 
@@ -302,15 +305,19 @@ footer .logo-txt {
   }
 }
 @media (max-width: 575.98px) {
-  .blockquote-size {
+  header {
+    height: 580px;
+  }
+  header .pt-responsive-xs {
+    padding-top: 1rem !important;
+  }
+  header .blockquote-size {
     font-size: 40px !important;
   }
-
-  .color-love {
+  header .color-love {
     font-size: 40px !important;
   }
-
-  .arrow {
+  header .arrow {
     display: none;
   }
 
