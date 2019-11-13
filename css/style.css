@@ -2,14 +2,57 @@ body {
   background-image: url(../media/bg-body.jpg);
 }
 
-header {
+/* header {
   background-image: url(../media/bg-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 750px;
+} */
+header{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:750px;
+  min-height:400px;
+  max-height:750px;
+  min-width:300px;
+  color:#eee;
 }
-
+header:after{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+ background: linear-gradient(to bottom, rgba(0,0,0,0.1) 40%,rgba(27,32,48,1) 100%);
+}
+header:before{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
+  background:#1B2030 url(../media/bg-header.jpg) center no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  animation: grow 25s  linear 10ms infinite;
+  transition:all 0.2s ease-in-out;
+  z-index:-2
+}
+@keyframes grow{
+  0% { transform:scale(1)}
+  50% { transform:scale(1.2)}
+}
 .bg-service-1 {
   background-image: url(../media/img-service1.jpg);
   background-size: cover;
