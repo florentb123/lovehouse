@@ -1,100 +1,129 @@
-@media (min-width: 992px) and (max-width: 1199.98px){
-    .blockquote-size {
-        font-size: 60px !important;
-      }
-    
-      .color-love{
-        font-size: 60px !important;
-      }
-    
-      .h5 {
-        font-size: 18px;
-      }
-      .contact .jour {
-        width: 110px;
-      }
+@media (min-width: 1200px) {
+  .contact .jour {
+    width: 120px;
+  }
 
+  #mapid {
+    height: 420px;
+  }
 
-      
 }
 
 
-@media (min-width: 768px) and (max-width: 991.98px){
-    .blockquote-size {
-        font-size: 70px !important;
-      }
-    
-      .color-love{
-        font-size: 70px !important;
-      }
-    
-      .h5 {
-        font-size: 18px;
-      }
-    .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
-        max-width: 80%;
-      }
-    #mapid {
-        height: 200px;
-      }
-      .arrow{
-        height: 80px!important;
-    }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .blockquote-size {
+    font-size: 60px !important;
+  }
+
+  .color-love {
+    font-size: 60px !important;
+  }
+
+  .h5 {
+    font-size: 18px;
+  }
+
+  .contact .jour {
+    width: 110px;
+  }
+
+  #mapid {
+    height: 410px;
+  }
+
+
 }
 
 
-@media (min-width: 576px) and (max-width: 767.98px){
-    .blockquote-size {
-        font-size: 70px !important;
-      }
-    
-      .color-love{
-        font-size: 70px !important;
-      }
-      .arrow{
-        display: none;
-    }
-      .h5 {
-        font-size: 16px;
-      }
-    .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
-        max-width: 100%;
-      }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .blockquote-size {
+    font-size: 70px !important;
+  }
 
-      .service .w-50 {
-        width: 100% !important;
-        background-color: rgba(255, 255, 255, 0.6);
-        height: 100%;
-        font-weight: bold;
-      }
-      
-    #mapid {
-        height: 150px;
-      }
-    
-      .contact h2 {
-        text-align: center;
-      }
-      .sm-center{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      }
+  .color-love {
+    font-size: 70px !important;
+  }
+
+  .h5 {
+    font-size: 18px;
+  }
+
+  .bg-service-1,
+  .bg-service-2,
+  .bg-service-3,
+  .bg-service-4,
+  .bg-service-5,
+  .bg-service-6 {
+    max-width: 80%;
+  }
+
+  #mapid {
+    height: 200px;
+  }
+
+  .arrow {
+    height: 100px !important;
+  }
 }
 
-@media (max-width: 575.98px){
-  .blockquote-size{
-    font-size: 40px!important;
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .blockquote-size {
+    font-size: 70px !important;
+  }
+
+  .color-love {
+    font-size: 70px !important;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .h5 {
+    font-size: 16px;
+  }
+
+  .bg-service-1,
+  .bg-service-2,
+  .bg-service-3,
+  .bg-service-4,
+  .bg-service-5,
+  .bg-service-6 {
+    max-width: 100%;
+  }
+
+  #mapid {
+    height: 150px;
+  }
+
+  .contact h2 {
+    text-align: center;
+  }
 }
-.color-love {
-    font-size: 40px!important;
-} 
-.arrow{
-  display: none;
-}
-  .bg-service-1, .bg-service-2, .bg-service-3, .bg-service-4, .bg-service-5, .bg-service-6 {
+
+@media (max-width: 575.98px) {
+  .blockquote-size {
+    font-size: 50px !important;
+  }
+
+  .color-love {
+    font-size: 50px !important;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .bg-service-1,
+  .bg-service-2,
+  .bg-service-3,
+  .bg-service-4,
+  .bg-service-5,
+  .bg-service-6 {
     max-width: 100%;
   }
 
@@ -106,18 +135,24 @@
   }
 
   .contact {
-    h2, .adress, .horraire {
-    text-align: center; 
-    margin:auto;
-  }
-         
-    table{
-     margin: auto;
+
+    h2,
+    .adress,
+    .horraire {
+      text-align: center;
+      margin: auto;
     }
-    td{
-     text-align:left;
+
+    table {
+      margin: auto;
     }
-    #mapid { height: 150px;
+
+    td {
+      text-align: left;
+    }
+
+    #mapid {
+      height: 150px;
     }
   }
   .sm-center{
